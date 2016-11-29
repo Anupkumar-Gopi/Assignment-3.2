@@ -1,0 +1,40 @@
+*{
+	font-family:'calibri',sans-serif;		
+}
+.logo > img{
+	height:98px;
+}
+label{
+	vertical-align:bottom;
+}
+form{
+	margin-left:15px;
+}
+#container{
+	border-top:35px solid #464646;
+	width:400px;
+}
+#srchBtn{
+	background-image:url(../images/logo.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:30px;
+	background-color:#ffffff;
+	width:30px;
+	height:30px;
+	border:1px solid #ccc;
+	border-radius:15px;
+	outline:0px none;
+	cursor:pointer;
+}
+#srchBtn:hover{
+	box-shadow:0px 0px 5px #999999;
+}
+#srchBtn:active{
+	box-shadow:0px 0px 0px #999999;
+}
+#searchTheme{	
+	line-height:30px;
+	font-size:14px;
+	font-weight:bold;
+}
